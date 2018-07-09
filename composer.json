@@ -1,0 +1,25 @@
+{
+  "name": "sharnw/avaya-php",
+  "description": "PHP integration for Avaya phone system",
+  "keywords": [
+    "laravel",
+    "swagger",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sharn White",
+    }
+  ],
+  "require": {
+    "php": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AvayaPHP\\": "src"
+    },
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
